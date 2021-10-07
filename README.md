@@ -9,6 +9,6 @@ Front-end library : React.js <br />
 Language : TypeScript <br />
 CSS preprocessor : Sass <br />
 State management : Redux <br />
-State management middlewares : redux-logger & redux-saga <br />
+State management middleware : redux-logger <br />
 HTTP client : Axios <br />
 Routing library : React router <br />
