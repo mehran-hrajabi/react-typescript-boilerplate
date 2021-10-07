@@ -4,7 +4,8 @@
   "description": "A React.Js and Typescript boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx webpack serve --config webpack.config.js --mode development --client-progress",
+    "build": "webpack --mode production"
   },
   "license": "ISC",
   "devDependencies": {
