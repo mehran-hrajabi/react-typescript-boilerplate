@@ -1,6 +1,6 @@
 import React from "react";
 
-const FirstMockComponent: React.FC = () => {
+const DummyComponent: React.FC = () => {
     return(
         <>
             Hello!
@@ -8,4 +8,4 @@ const FirstMockComponent: React.FC = () => {
     );
 };
 
-export default FirstMockComponent;
+export default DummyComponent;
