@@ -1,6 +1,7 @@
 # react-typescript-boilerplate
 A boilerplate for React.js and typescript.
 
+All dependencies are in their latest version as of October 2021.
 Please install the latest version of Node.js and npm on your system.
 
 Bundler : Webpack <br />
