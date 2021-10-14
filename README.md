@@ -42,3 +42,11 @@ This command builds the app for production to the `dist` folder.
 ```
 npm run build
 ```
+
+## Code formatting
+
+This command formats each line of code in all of your files.
+
+```
+npx prettier --write .
+```
