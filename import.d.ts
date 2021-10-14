@@ -1,4 +1,4 @@
-declare module "*" {
-    const value: any;
-    export = value;
+declare module '*' {
+	const value: any;
+	export = value;
 }

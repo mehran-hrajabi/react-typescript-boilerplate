@@ -1,14 +1,14 @@
-import axios from "axios";
+import axios from 'axios';
 
 // Here you can config the interceptors
 
 axios.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  (error) => {
-    return Promise.reject(error);
-  }
+	(response) => {
+		return response;
+	},
+	(error) => {
+		return Promise.reject(error);
+	},
 );
 
 axios.interceptors.request.use(
@@ -21,8 +21,8 @@ axios.interceptors.request.use(
 );
 
 export default {
-  get: axios.get,
-  post: axios.post,
-  put: axios.put,
-  delete: axios.delete,
+	get: axios.get,
+	post: axios.post,
+	put: axios.put,
+	delete: axios.delete,
 };

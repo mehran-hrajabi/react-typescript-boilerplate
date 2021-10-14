@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const DummyComponent: React.FC = () => {
-    return(
-        <>
-            Hello!
-        </>
-    );
+	return <>Hello!</>;
 };
 
 export default DummyComponent;

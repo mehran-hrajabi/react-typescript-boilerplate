@@ -3,12 +3,7 @@ import * as ReactDom from 'react-dom';
 import App from './App';
 
 const MainApp: React.FC = () => {
-    return(
-        <App />
-    )
-}
+	return <App />;
+};
 
-ReactDom.render(
-    <MainApp />,
-    document.getElementById("root")
-)
+ReactDom.render(<MainApp />, document.getElementById('root'));
