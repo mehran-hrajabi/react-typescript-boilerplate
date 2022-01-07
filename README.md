@@ -4,7 +4,7 @@ A boilerplate for React.js and typescript.
 
 ## Main technologies
 
-All main dependencies are in their latest version as of October 2021. <br />
+All main dependencies are in their latest version as of January 2022. <br />
 
 <div>
   <img src="https://github.com/mehran-hrajabi/react-typescript-boilerplate/blob/master/src/assets/images/typescript.png?raw=true" alt="typescript" width="100"/>
