@@ -14,7 +14,7 @@ type PostParamsType = {
 	userId: number;
 };
 
-let params: PostParamsType = {
+const params: PostParamsType = {
 	title: 'foo',
 	body: 'bar',
 	userId: 1,

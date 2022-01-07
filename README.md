@@ -16,6 +16,7 @@ All main dependencies are in their latest version as of January 2022. <br />
   <img src="https://github.com/mehran-hrajabi/react-typescript-boilerplate/blob/master/src/assets/images/react-router.png?raw=true" alt="react-router" width="100"/>
   <img src="https://github.com/mehran-hrajabi/react-typescript-boilerplate/blob/master/src/assets/images/axios.svg?raw=true" alt="axios" width="100"/>
   <img src="https://github.com/mehran-hrajabi/react-typescript-boilerplate/blob/master/src/assets/images/prettier.png?raw=true" alt="prettier" width="100"/>
+  <img src="https://github.com/mehran-hrajabi/react-typescript-boilerplate/blob/master/src/assets/images/eslint.png?raw=true" alt="eslint" width="100"/>
 </div>
 
 ## Installing dependencies
@@ -48,5 +49,13 @@ npm run build
 This command formats each line of code in all of your files.
 
 ```
-npx prettier --write .
+npm run format
+```
+
+## Code linting
+
+This command lints each line of code in all of your js/ts/tsx files.
+
+```
+npm run lint
 ```

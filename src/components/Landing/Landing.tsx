@@ -8,6 +8,7 @@ import AxiosLogo from '../../assets/images/axios.svg';
 import ReactRouterLogo from '../../assets/images/react-router.png';
 import ReduxLogo from '../../assets/images/redux.png';
 import PrettierLogo from '../../assets/images/prettier.png';
+import EslintLogo from '../../assets/images/eslint.png';
 import './Landing.scss';
 
 type LogoType = {
@@ -24,6 +25,7 @@ const Logos: LogoType[] = [
 	{ label: 'Sass', source: SassLogo },
 	{ label: 'Axios', source: AxiosLogo },
 	{ label: 'Prettier', source: PrettierLogo },
+	{ label: 'Eslint', source: EslintLogo },
 ];
 
 const Landing: React.FC = () => {
